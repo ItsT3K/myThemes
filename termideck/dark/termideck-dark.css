@@ -1,0 +1,194 @@
+/*
+    Theme:      Termideck Dark
+    Author:     Joshua D. [ItsT3K]
+    License:    GNU GPLv3
+    Language:   CSS/HTML
+    Type:       Dark, Simple, Minimal, Computer Aimed
+*/
+/* jacquard-12-regular - latin */
+
+/* ================ START FONT IMPORT ================ */
+/* 
+    Font Importing - Fonts in this document are licensed under OFL 
+    unless stated otherwise
+*/
+/* Regular Body Font - IBM Plex Sans - Mike Abbink, Bold Monday - Open Font License */
+/* ibm-plex-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ibm-plex-sans-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+    
+/* Regular Body Font - IBM Plex Sans - Mike Abbink, Bold Monday - Open Font License */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');    
+/* Monospace Font - IBM Plex Mono - Mike Abbink, Bold Monday - Open Font License */
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* Secondary Monospace Font - Courier Prime - Alan Dague-Greene - Open Font License */
+    @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Handwritten Font - Lugrasimo - The DocRepair Project, Astigmatic - Open Font License */
+    @import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+/* Top Header Font - Kanit - Cadson Demak - Open Font License */
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ================ END FONT IMPORT ================ */
+
+  
+  /* ================ END FONT IMPORT ================ */
+  
+  /* ======== Border Box ======== */
+      * {
+          box-sizing: border-box;
+      }
+  /* ======== Body Style ======== */
+      body {
+          margin: 0;
+          font-family: 'IBM Plex Sans Regular', sans-serif; 
+          background-color: #2f2f2f;
+          color: #cfcfcf;                         /* Font Color - Light Grey instead of White, less likely for visual fatigue */
+      }
+  /* ======== Top Navigation Bar ======== */
+      ul.topnav {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #1a1a1a;
+          opacity: 75%;
+          width: 75%;
+          font-family: 'IBM Plex Sans', sans-serif;
+          margin: auto;
+      }
+      ul.topnav li {
+          float: left;
+      }
+      ul.topnav li a {
+          display: block;
+          color: #dfdfdf;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+  /* ======== Other Stuff ======== */
+      .container {
+          display: flex;
+      }
+      table, th, td, tr {
+          border: 1px solid #6f6f6f;
+          border-collapse: collapse;
+        }
+  /* ======== Text Definitions ========= */
+        .BigListText{
+            font-size: 24px;
+            font-family: "Kanit", sans-serif;
+            text-decoration: underline dotted;
+        }
+        .MonoText{
+            font-family: "IBM Plex Mono Regular", monospace;
+            font-weight: 400;
+            font-style: normal;
+            background-color:#000;
+            border:1px;
+            border-radius:8px;
+            padding:2px;
+      }
+        .TopText{
+            text-align: center;
+      }
+      .CompanyName{
+            font-family: "IBM Plex Mono Regular", monospace;
+            font-weight: 600;
+            font-style: normal;
+      }
+      .ExampleText{
+            font-family: "IBM Plex Mono Regular", monospace;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 10px;
+      }
+      .InternalContent {
+          background-color: #5a5a5a;
+          padding: 10px;
+      }
+      .CenterText{
+          text-align:center
+      }
+      a:link {
+          color:#EEEEEE;
+          text-decoration: none; 
+        }
+      a:visited {
+          color:#aaaaaa;
+          text-decoration: none; 
+        }
+      a:hover {
+          color:#cccccc;
+          text-decoration: none; 
+        }
+      a:active {
+          color:#eeeeee;
+          text-decoration: none; 
+        }
+  /* ======== Shapes ======== */
+      #ButtonBox {
+          border-radius: 15px;
+          border-color: #686868;
+          background: #626262;
+          padding: 20px; 
+          width: 20%;
+          height: 128px; 
+          filter: drop-shadow(10px 6px 4px #3a3a3a);
+          font-size: 150%;
+          text-align: center;
+          padding-top: 32px;
+          color: #DDDDDD;
+          font-family: "Kanit", sans-serif;
+          margin: auto;
+          /*background-size: 100%;*/
+      } 
+  /* Style the content */
+      .content {
+          background-color:rgba(47,47,47,.75); /* dark grey with an alpha channel */
+          padding: 10px;
+          width: 75%;
+          font-family: "IBM Plex Sans", sans-serif;
+          filter: drop-shadow(10px 2px 4px #1c1c1c);
+          margin: auto;
+      }
+      .footer {   
+          background-color:rgba(63,63,63,.90); 
+          color: #8a8a8a;
+          font-family: "Courier Prime Regular", monospace;
+          font-size: 10px; 
+          padding: 10px;
+          width:75%;
+          margin: auto;
+          filter: drop-shadow(10px 2px 4px #161616);
+      }
+      h1 {
+          font-weight: normal ;
+          font-size: 48px;
+          font-family: "Kanit", sans-serif;
+          color: #dddddd;
+      }
+      h2 {
+          font-weight: normal ;
+          font-size: 32px;
+          font-family: "Kanit", sans-serif;
+          color: #dddddd;
+      }
+      h3 {
+          font-weight: normal ;
+          font-size: 24px;
+          font-family: "Kanit", sans-serif;
+          color: #dddddd;
+      }
+      radio {
+          background-color: lightgrey;
+          width: auto;
+          border: 4px solid darkgrey;
+          padding: 25px;
+          margin: 25px;
+  }
+  
