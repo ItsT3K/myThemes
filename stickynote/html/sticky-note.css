@@ -1,0 +1,118 @@
+/*
+    Theme:      Sticky Note
+    Author:     Joshua D. [ItsT3K]
+    License:    GNU GPLv3
+    Language:   CSS/HTML
+    Type:       Bright, Minimal, White
+*/
+
+/*	Font Importing	*/
+
+	/* Indie Flower - Kimberly Geswein - Open Font License */
+	@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+	/* Nerko One - Nermin Kahrimanovic - Open Font License */
+	@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+/*	Visual Styling	*/
+	body{
+		/*	Body Style
+		--------------------------
+		This is just a background canvas for the sticky note page to 
+		rest on.
+		
+		#FFFFE0 
+		*/
+			font-family: "Indie Flower", cursive;
+			font-weight: 400;
+			font-style: normal;
+			background-color: #CCC;	/* Desk Color */
+	}
+	.sticky{
+			padding: 10px;
+			margin: auto;
+			filter: drop-shadow(8px 4px 4px #888870);
+			width: 50%;
+			font-size: 18px;
+			background-color: #FFFFE0; /* Light Cream color. Similar to most non-brand specific sticky notes */
+			font-family: "Indie Flower", cursive;
+			font-weight: 400;
+			font-style: normal;
+	}
+	li{
+		/* Nothing fancy is going to be done for lists. */
+			margin-left: 16px;
+	}
+	
+/*	Font Stuff	*/
+	/*	Hyperlink stuff - Just the usual */
+	a:link{
+			text-decoration: underline; 
+			font-weight: 500;
+			color: #222;
+    }
+    a:visited {
+			color:#444;
+			text-decoration: underline;  
+    }
+    a:hover {
+			color: #666;
+			text-decoration: bold; 
+			
+    }
+    a:active {
+			text-decoration: none; 
+    }
+	h1{
+		/* Title and Header Stuff 
+		---------------------------
+		Default uses the font Nerko One to simulate
+		a bold writing style.
+		*/
+			text-align: center; 
+			font-family: "Nerko One", cursive;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 48px;
+	}
+	h2{
+		/* Smaller Header Stuff  
+		---------------------------
+		Default uses the font Nerko One to simulate
+		a bold writing style.
+		*/
+			text-align: center; 
+			font-family: "Nerko One", cursive;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 32px;
+	}
+	h3{
+		/* -EVEN- Smaller Header Stuff  
+		---------------------------
+		Default uses the font Nerko One to simulate
+		a bold writing style.
+		*/
+			text-align: center; 
+			font-family: "Nerko One", cursive;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 28px;
+	}
+	h4{
+		/* -EVEN EVEN - Smaller Header Stuff  
+		---------------------------
+		Default uses the font Nerko One to simulate
+		a bold writing style.
+		*/
+			text-align: center; 
+			font-family: "Nerko One", cursive;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 22px;
+	}
+	footer{
+			font-family: "Indie Flower", cursive;
+			font-weight: 200;
+			font-style: normal;
+			font-size: 12px;
+	}
