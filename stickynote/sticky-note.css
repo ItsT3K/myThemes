@@ -14,6 +14,26 @@
 	@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
 /*	Visual Styling	*/
+    ul.topnav {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			opacity: 75%;
+			width: 50%;
+			font-family: "Indie Flower", cursive;
+			margin: auto;
+    }
+      
+    ul.topnav li {
+			float: left;
+    }
+    ul.topnav li a {
+			display: block;
+			color: #000;
+			text-align: center;
+			padding: 14px 16px;
+	}
 	body{
 		/*	Body Style
 		--------------------------
