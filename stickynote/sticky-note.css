@@ -20,7 +20,6 @@
 			padding: 0;
 			overflow: hidden;
 			opacity: 75%;
-			width: 50%;
 			font-family: "Indie Flower", cursive;
 			margin: auto;
     }
@@ -70,16 +69,16 @@
 			font-weight: 500;
 			color: #222;
     }
-    a:visited {
+   	a:visited {
 			color:#444;
 			text-decoration: underline;  
     }
-    a:hover {
+    	a:hover {
 			color: #666;
 			text-decoration: bold; 
 			
     }
-    a:active {
+    	a:active {
 			text-decoration: none; 
     }
 	h1{
