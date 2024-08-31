@@ -57,6 +57,13 @@
 			font-weight: 400;
 			font-style: normal;
 	}
+/* Gotta make this mobile friendly! */
+    	@media screen and (max-width: 600px) {
+        	.sticky {
+            		width: 95%;
+        	}
+        
+    	}
 	li{
 		/* Nothing fancy is going to be done for lists. */
 			margin-left: 16px;
@@ -69,16 +76,16 @@
 			font-weight: 500;
 			color: #222;
     }
-   	a:visited {
+    a:visited {
 			color:#444;
 			text-decoration: underline;  
     }
-    	a:hover {
+    a:hover {
 			color: #666;
 			text-decoration: bold; 
 			
     }
-    	a:active {
+    a:active {
 			text-decoration: none; 
     }
 	h1{
